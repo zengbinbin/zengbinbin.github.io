@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>zane</title>
+  
+  <subtitle>You never know how far you can go till you take the first step</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-03-22T01:52:38.751Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>zane</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2019/03/21/hello-world/"/>
+    <id>http://yoursite.com/2019/03/21/hello-world/</id>
+    <published>2019-03-21T10:13:06.234Z</published>
+    <updated>2019-03-22T01:52:38.751Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
