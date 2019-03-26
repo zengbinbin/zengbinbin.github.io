@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>zane</title>
+  <title>不屈不挠的铲屎官</title>
   
   <subtitle>You never know how far you can go till you take the first step</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>zane</name>
+    <name>不屈不挠的铲屎官</name>
     
   </author>
   
@@ -24,6 +24,28 @@
     <updated>2019-03-22T01:52:38.751Z</updated>
     
     <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>mac下安装nvm---node版本管理工具</title>
+    <link href="http://yoursite.com/2018/03/26/mac%E4%B8%8B%E5%AE%89%E8%A3%85nvm-node%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/"/>
+    <id>http://yoursite.com/2018/03/26/mac下安装nvm-node版本管理工具/</id>
+    <published>2018-03-26T09:30:25.000Z</published>
+    <updated>2019-03-26T10:03:58.882Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><pre><code>因为项目的原因只能安装8.x的node，倘若不是安装8.x的就会报错,因此便想到了使用nvm来管理Node</code></pre><h2 id="一-安装brew"><a href="#一-安装brew" class="headerlink" title="一.安装brew"></a>一.安装brew</h2><p>   终端上运行</p><pre><code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre><h2 id="二。安装指定版本的node"><a href="#二。安装指定版本的node" class="headerlink" title="二。安装指定版本的node"></a>二。安装指定版本的node</h2><ul><li>需要安装homebrew-version 安装nvm</li></ul><pre><code>brew install nvm</code></pre><ul><li>查看可安装的node版本</li></ul><pre><code>source $(brew --prefix nvm)/nvm.sh                 //唤醒nvmnvm ls-remote查看所有node 版本</code></pre><p><img src="/2018/03/26/mac下安装nvm-node版本管理工具/image/nvm1.png" alt="svn所有版本"></p><pre><code>nvm install version 就可以安装你想要的版本 .    ----</code></pre><ul><li>切换node的版本</li></ul><pre><code>nvm use --delete-prefix version</code></pre><ul><li>查看已安装版本</li></ul><pre><code>nvm ls  //查看已经安装的版本</code></pre><p><img src="/2018/03/26/mac下安装nvm-node版本管理工具/image/nvm2.png" alt="svn所有版本"></p><pre><code>注：绿色箭头的为已经在使用版本</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;因为项目的原因只能安装8.x的node，倘若不是安装8.x的就会报错,因此便想到了使用nvm来管理Node
+&lt;/code&gt;&lt;
+      
     
     </summary>
     
